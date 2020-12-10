@@ -30,9 +30,6 @@ public class CartController {
                     cart.deleteProductFromCart(Integer.parseInt(valueDelete));
                     System.out.println("Ваша корзина:" + "\n" + cart.getCartList()+ "\n");
                     break;
-                case "refresh":
-                    System.out.println("Ваша корзина:" + "\n" + cart.getCartList()+ "\n");
-                    break;
                 case "exit":
                     scanner.close();
                     return;
